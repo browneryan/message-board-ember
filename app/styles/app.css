@@ -10,6 +10,10 @@ nav {
   opacity: .98;
 }
 
+h5, p {
+  color: black !important;
+}
+
 .nav-wrapper {
   background-color: rgb(143, 179, 55);
 }
@@ -35,4 +39,36 @@ nav ul li a:hover {
   color: black;
   font-size: 30px;
   margin-left: 2.5%;
+}
+
+.index-body {
+  margin-top: 10%;
+}
+
+.col-sm-6 {
+  margin-bottom: 30px;
+}
+
+.newQuestionForm {
+  margin-bottom: 50px;
+  background-color: #83A436;
+}
+
+.saveNewQuestion {
+  margin-bottom: 50px;
+  background-color: #83A436 !important;
+}
+
+.deleteBtn {
+  margin-top: -88px;
+  float: right;
+}
+
+.waves-effect.waves-green {
+  background-color: #83A436;
+}
+
+.waves-effect.waves-green:hover{
+  background-color: #83A436;
+  color:black;
 }
