@@ -2,9 +2,8 @@
   <div class="index-body">
     <div class="row">
       {{#each model.questions as |question|}}
-        <p>
-          {{question.inquiry}}
-        </p>
+        <h5>Q: {{question.inquiry}}</h5>
+        <p>By: {{question.author}}</p>
       {{/each}}
     </div>
   </div>
