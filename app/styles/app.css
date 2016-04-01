@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+/********************
+******** Navbar **********/
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+  opacity: .98;
+}
+
+.nav-wrapper {
+  background-color: rgb(143, 179, 55);
+}
+
+.blog-logo:hover {
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.blog-logo {
+  color: black;
+  font-size: 30px;
+  margin-left: 2.5%;
+}
