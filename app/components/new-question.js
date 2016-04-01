@@ -10,10 +10,13 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('authorInput') ? this.get('authorInput'): "",
         inquiry: this.get('inquiryInput') ? this.get('inquiryInput'): "",
-        note: this.get('noteInput') ? this.get('noteInput'): ""
+        note: this.get('noteInput') ? this.get('noteInput'): "",
       };
       this.set('addNewQuestion', false);
       this.sendAction('save2', params);
+      this.set('authorInput', "");
+      this.set('inquiryInput', "");
+      this.set('noteInput', "");
     }
   }
 });
