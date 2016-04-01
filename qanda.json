@@ -1,0 +1,14 @@
+{ "questions": [{
+    "inquiry": "Why is the sky blue?",
+    "author": "Shakespeare",
+    "note": "No, seriously...why?"
+  },{
+    "inquiry": "What's up with dinosaurs, are they real?",
+    "author": "William Hayes",
+    "note": "I honestly don't think that they are."
+  }],
+  "answers": [{
+    "reply": "It's science, Google it...",
+    "author": "Isaac Newton"
+    }] 
+}
