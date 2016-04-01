@@ -1,3 +1,15 @@
-<h3>More info about {{question.author}}'s question:</h3>
-<h3>Question: {{question.inquiry}}</h3>
-<h3>Notes: {{question.note}}</h3>
+<div class="container">
+  <h3>More info about {{question.author}}'s question:</h3>
+  <h3>Question: {{question.inquiry}}</h3>
+  <h3>Notes: {{question.note}}</h3>
+  <hr>
+
+  {{new-answer question=model save2="save3"}}
+
+  <h4>Answers:</h4>
+  {{#each model.answers as |answer|}}
+    <div>
+      {{answer-detail answer=answer update="update"}}
+    </div>
+  {{/each}}
+</div>
