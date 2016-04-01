@@ -9,9 +9,8 @@ export default Ember.Component.extend({
     update(answer) {
       var params = {
         reply: this.get('replyInput') ? this.get('replyInput'): answer.get('replyInput'),
-        author: this.get('authorInput') ? this.get('authorInput'): author.get('answerInput'),
+        author: this.get('authorInput') ? this.get('authorInput'): answer.get('authorInput'),
       };
-      // debugger;
       this.set('updateAnswerForm', false);
       this.sendAction('update', answer, params);
     }
