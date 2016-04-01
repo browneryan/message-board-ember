@@ -1,1 +1,9 @@
-{{yield}}
+<div class="col-sm-6">
+  {{#link-to 'question' question.id}}
+    <h5>Q: {{question.inquiry}}</h5>
+    <p>By: {{question.author}}</p>
+  {{/link-to}}
+</div>
+<div class="delete-question">
+  <button class="waves-effect waves-green btn deleteBtn" {{action 'delete' question}}>Delete</button>
+</div>
