@@ -1,14 +1,14 @@
 { "questions": [{
     "inquiry": "Why is the sky blue?",
     "author": "Shakespeare",
-    "note": "No, seriously...why?"
+    "note": "Just curious..."
   },{
-    "inquiry": "What's up with dinosaurs, are they real?",
-    "author": "William Hayes",
-    "note": "I honestly don't think that they are."
+    "inquiry": "Anyone want to buy my bike?",
+    "author": "Lance Armstrong",
+    "note": "It's a super nice State Bicycle, matte black, single speed. Let me know if you're interested."
   }],
   "answers": [{
     "reply": "It's science, Google it...",
     "author": "Isaac Newton"
-    }] 
+    }]
 }
