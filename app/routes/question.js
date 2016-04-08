@@ -5,7 +5,8 @@ export default Ember.Route.extend({
 
   model(params) {
     return this.store.findRecord('question', params.question_id);
-  },
+  }
+
   actions: {
     save3(params) {
       var newAnswer = this.store.createRecord('answer', params);
@@ -28,8 +29,9 @@ export default Ember.Route.extend({
     favorite(favorite) {
       this.get('favoriteQuestions').add(favorite);
     },
-    upvote(model) {
-      model.incrementProperty('voteCount', 1);
+    upvote(answer) {
+      answer.incrementProperty('voteCount', 1);
+      answer.save();
     }
   }
 });
