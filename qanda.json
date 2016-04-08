@@ -1,14 +1,16 @@
-{ "questions": [{
-    "inquiry": "Why is the sky blue?",
-    "author": "Shakespeare",
-    "note": "Just curious..."
-  },{
-    "inquiry": "Anyone want to buy my bike?",
-    "author": "Lance Armstrong",
-    "note": "It's a super nice State Bicycle, matte black, single speed. Let me know if you're interested."
-  }],
-  "answers": [{
-    "reply": "It's science, Google it...",
-    "author": "Isaac Newton"
-    }]
+{
+	"questions": [{
+		"inquiry": "Why is the sky blue?",
+		"author": "Shakespeare",
+		"note": "Just curious..."
+	}, {
+		"inquiry": "Anyone want to buy my bike?",
+		"author": "Lance Armstrong",
+		"note": "It's a super nice State Bicycle, matte black, single speed. Let me know if you're interested."
+	}],
+	"answers": [{
+		"reply": "It's science, Google it...",
+		"author": "Isaac Newton",
+		"voteCount": 5
+	}]
 }
