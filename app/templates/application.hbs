@@ -3,10 +3,11 @@
 <div class="navbar-fixed">
   <nav class="#fafafa grey lighten-5">
     <div class="nav-wrapper">
-      <a href="#" class="blog-logo">MESSAGE BOARD</a>
+      {{#link-to 'index'}}<a class="blog-logo">MESSAGE BOARD</a>{{/link-to}}
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="about">ABOUT</a></li>
-        <li><a href="contact">CONTACT</a></li>
+        <!-- {{#link-to 'about'}}<li>ABOUT</li>{{/link-to}}
+        {{#link-to 'contact'}}<li>CONTACT</li>{{/link-to}} -->
+        {{#link-to 'favorites'}}<li>FAVORITES</li>{{/link-to}}
       </ul>
     </div>
   </nav>
