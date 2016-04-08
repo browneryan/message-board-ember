@@ -72,3 +72,7 @@ nav ul li a:hover {
   background-color: #83A436;
   color:black;
 }
+
+.noAnswer {
+  color: red !important;
+}
