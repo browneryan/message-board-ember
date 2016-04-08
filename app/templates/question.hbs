@@ -6,7 +6,9 @@
   <button class="waves-effect waves-green btn favoriteBtn" {{action 'favorite' model}}>Favorite</button>
   <br><br>
   {{new-answer question=model save2="save3"}}
-
+  <br>
+  <button class="waves-effect waves-green btn upvoteBtn" {{action 'upvote' model}}>Upvote</button>
+  <br><br>
   <h4>Answers:</h4>
   {{#each model.answers as |answer|}}
     <div>

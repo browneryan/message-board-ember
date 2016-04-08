@@ -27,6 +27,9 @@ export default Ember.Route.extend({
     },
     favorite(favorite) {
       this.get('favoriteQuestions').add(favorite);
+    },
+    upvote(model) {
+      model.incrementProperty('voteCount', 1);
     }
   }
 });
