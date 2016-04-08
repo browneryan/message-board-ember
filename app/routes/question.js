@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  favoriteQuestions: Ember.inject.service(),
+
   model(params) {
     return this.store.findRecord('question', params.question_id);
   },
@@ -22,6 +24,10 @@ export default Ember.Route.extend({
       });
       answer.save();
       this.transitionTo('question');
+    },
+    favorite(favorite) {
+      this.get('favoriteQuestions').add(favorite);
+      console.log(favorite);
     }
   }
 });
