@@ -7,7 +7,7 @@ export function noAnswer(params) {
   if (answerCount.get('answers').get('length') > 0) {
     return Ember.String.htmlSafe('<span class="hasAnswer"></span>');
   } else {
-    return Ember.String.htmlSafe('<p class="noAnswer">No answers yet!</p>')
+    return Ember.String.htmlSafe('<p class="noAnswer">No answers yet!</p>');
   }
 }
 
