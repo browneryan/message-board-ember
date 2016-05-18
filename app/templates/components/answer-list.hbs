@@ -1,8 +1,0 @@
-{{#each sortedAnswers as |answer|}}
-  <p>By: {{answer.author}}</p>
-  <p>{{answer.reply}}</p>
-  <p>Votes: {{answer.voteCount}}</p>
-  <button class="waves-effect waves-green btn upvoteBtn" {{action 'upvote' answer}}>Upvote</button>
-  <br><br>
-  {{update-answer answer=answer update="update"}}
-{{/each}}
